@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    
+    "windows": {
+        "command": "‪C:\\FPC\\3.2.2\\bin\\i386-win32\\fpc.exe"
+    },
+    "linux": {
+        "command": "C:\\FPC\\3.2.2\\bin\\i386-win32"
+    },
+    "args": ["${workspaceRoot}\\${fileBasenameNoExtension}.pas","-g","-O-","-vd"],
+    "problemMatcher": {
+        "owner": "external",
+        "pattern": {
+            "regexp": "^([\\w]+\\.(p|pp|pas))\\((\\d+)\\,(\\d+)\\)\\s(Fatal|Error|Warning|Note):(.*)",
+            "file": 1,
+            "line": 3,
+            "column": 4,
+            "message": 6
+        }
+    }
+    
+}

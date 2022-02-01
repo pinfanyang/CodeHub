@@ -1,0 +1,9 @@
+package ×öÌâ;
+
+public class Main {
+	public static void main(String[] args)
+	{
+		float a=2021.12;
+		System.out.println("hello world!");
+	}
+}

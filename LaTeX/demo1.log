@@ -1,0 +1,143 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.27)  29 JAN 2022 11:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**demo1.tex
+(./demo1.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(c:/texlive/2021/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(c:/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count190
+\l__color_backend_stack_int=\count191
+\g__color_backend_stack_int=\count192
+\g__graphics_track_int=\count193
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count194
+\g__pdf_backend_annotation_int=\count195
+\g__pdf_backend_link_int=\count196
+) (./demo1.aux)
+\openout1 = `demo1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+.
+
+(c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+
+Chapter 1.
+Missing character: There is no 天 (U+5929) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 地 (U+5730) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 玄 (U+7384) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 黄 (U+9EC4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 宇 (U+5B87) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 宙 (U+5B99) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 洪 (U+6D2A) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 荒 (U+8352) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 日 (U+65E5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 月 (U+6708) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 盈 (U+76C8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 昃 (U+6603) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 辰 (U+8FB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 宿 (U+5BBF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 列 (U+5217) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 张 (U+5F20) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=t
+ex-text;!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 12.
+Missing character: There is no 出 (U+51FA) in font [lmroman8-regular]:mapping=te
+x-text;!
+Missing character: There is no 自 (U+81EA) in font [lmroman8-regular]:mapping=te
+x-text;!
+Missing character: There is no 《 (U+300A) in font [lmroman8-regular]:mapping=te
+x-text;!
+Missing character: There is no 千 (U+5343) in font [lmroman8-regular]:mapping=te
+x-text;!
+Missing character: There is no 字 (U+5B57) in font [lmroman8-regular]:mapping=te
+x-text;!
+Missing character: There is no 文 (U+6587) in font [lmroman8-regular]:mapping=te
+x-text;!
+Missing character: There is no 》 (U+300B) in font [lmroman8-regular]:mapping=te
+x-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman8-regular]:mapping=te
+x-text;!
+[1
+
+
+] (./demo1.aux) ) 
+Here is how much of TeX's memory you used:
+ 519 strings out of 476191
+ 10348 string characters out of 5813342
+ 306033 words of memory out of 5000000
+ 21312 multiletter control sequences out of 15000+600000
+ 471178 words of font info for 46 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 37i,8n,39p,144b,176s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on demo1.pdf (1 page).

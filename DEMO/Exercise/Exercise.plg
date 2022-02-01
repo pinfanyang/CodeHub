@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Exercise - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\15336\AppData\Local\Temp\RSP107B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Exercise.pdb" /debug /machine:I386 /out:"Debug/Exercise.exe" /pdbtype:sept 
+.\Debug\Exercise.obj
+.\Debug\ExerciseDoc.obj
+.\Debug\ExerciseView.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\Exercise.res
+.\Debug\DlgJiSuanQi.obj
+.\Debug\DlgHuaYuan.obj
+]
+Creating command line "link.exe @C:\Users\15336\AppData\Local\Temp\RSP107B.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+Exercise.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

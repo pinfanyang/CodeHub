@@ -1,0 +1,33 @@
+package ×öÌâ;
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args)
+	{
+		String stra="123";
+		String strb="12";
+		String strc="111";
+		int idx=-1;
+			int i=0,j=0, lasti=0; 
+			byte[] a=stra.getBytes(); 
+			byte[] b=strb.getBytes();
+			String d=new String(); 
+			for(i=0;i<a. length-b. length+1;i++){
+				for(j=0;j<b. length;j++){
+					if(a[i+j]!=b[j]) break; 
+					if(j==b.length){
+						d+=new String(Arrays.copyOfRange(a, lasti,i));
+						d+=strc; 
+						lasti=i=i+j; 
+						if(idx==-1) 
+							break;
+					}
+					d+=new String(Arrays.copyOfRange(a,lasti,a.length)); 
+				}
+			}
+			System.out.print(d);
+		}
+}
+
+
+

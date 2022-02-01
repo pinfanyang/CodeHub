@@ -1,0 +1,50 @@
+package 做题;
+import java.util.*;
+public class Main {
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		Long a=in.nextLong();
+		Long b;		//逆序数
+		Long ans;	//存放最终结果
+		Long remainder;//余数
+		int len;
+		while(a<=1000000)
+		{
+			Long input=a;
+	        while (input != 0) {
+	            remainder = input % 10;
+	            input = input / 10;
+	            b = b*10 + remainder;           
+	        }
+	        ans=a+b;
+	        if(ans<=200000 && ans>=100000)
+	        {
+	        	System.out.println(a);
+	        }
+	        a++;
+	    }
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		in.close();
+	}
+}
+
+
+

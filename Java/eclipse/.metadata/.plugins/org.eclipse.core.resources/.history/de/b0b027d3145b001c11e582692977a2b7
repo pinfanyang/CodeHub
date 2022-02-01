@@ -1,0 +1,32 @@
+package ×öÌâ;
+import java.util.*;
+public class Main {
+	public String mthd(String stra, String strb, String strc, int idx){
+		int i=0,j=0, lasti=0; 
+		byte[] a=stra.getBytes(); 
+		byte[] b=strb.getBytes();
+		String d=new String(); 
+		for(i=0;i<a. length-b. length+1;i++){
+			for(j=0;j<b. length;j++){
+				if(a[i+j]!=b[j]) break; 
+				if(j==b.length){
+					d+=new String(Arrays.copyOfRange(a, lasti,i));
+					d+=strc; 
+					lasti=i=i+j; 
+					if(idx==-1) 
+						break;
+				}
+				d+=new String(Arrays.copyOfRange(a,lasti,a.length)); 
+				return d;
+			}
+		}
+	}
+	public static void main(String[] args)
+	{
+		mthd("123"," ", "12", -1);
+		System.out.println("hello world!");
+	}
+}
+
+
+

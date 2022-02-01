@@ -1,0 +1,29 @@
+package 做题;
+import java.util.*;
+public class Main {
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		long a=in.nextLong();
+		long b;
+		long ans;	//存放最终结果
+		int len;
+		for(a;a<1000000;a++)
+		{
+			len=a.toString().length();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		in.close();
+	}
+}
+
+
+

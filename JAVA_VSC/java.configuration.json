@@ -1,0 +1,7 @@
+"java.configuration.runtimes": [
+    {
+      "name": "jdk1.8.0_301",
+      "path": ""C:\Program Files\Java\jdk1.8.0_301"",
+      "default": true
+    },
+  ]

@@ -1,0 +1,32 @@
+package 做题;
+import java.util.*;
+public class Main {
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		Long a=in.nextLong();
+		Long b;
+		Long ans;	//存放最终结果
+		int len;
+		while(a>1000000)
+		{
+			len=a.toString().length();	//当前数字长度
+			for(len;len>0;len--)
+			{
+				a=
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		in.close();
+	}
+}
+
+
+
