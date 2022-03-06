@@ -1,0 +1,286 @@
+2022-02-27 15:18:35,501 [INFO] Activator:177 - 
+
+
+2022-02-27 15:18:35,503 [INFO] Activator:178 - !SESSION log4j initialized
+2022-02-27 15:18:39,214 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-02-27 15:18:56,925 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-02-27 15:18:57,363 [INFO] ApplicationProperties:181 - Using Application install path: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105
+2022-02-27 15:18:57,374 [INFO] DbMcusXml:74 - Set database path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/
+2022-02-27 15:18:57,378 [INFO] DbBoardsPdsc:56 - Set plugin database path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/boardmanager/
+2022-02-27 15:18:57,379 [INFO] DbMcus:258 - Set plugin images path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-02-27 15:18:57,380 [INFO] DbBoards:264 - Set plugin images path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-02-27 15:18:57,383 [INFO] DbExamples:332 - Set plugin images path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-02-27 15:18:58,478 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-S2915A1.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-S2915A1.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,481 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-S2868A2.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-S2868A2.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,484 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-S2868A1.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-S2868A1.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,486 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-NFC04A1.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-NFC04A1.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,489 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-IKS02A1.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-IKS02A1.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,493 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-IKS01A3.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-IKS01A3.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,499 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-IKS01A2.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-IKS01A2.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,503 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-IDB05A2.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-IDB05A2.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,504 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-EEPRMA2.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-EEPRMA2.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,507 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-EEPRMA1.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-EEPRMA1.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,509 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-BNRG2A1.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-BNRG2A1.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,513 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-6283A1.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-6283A1.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,514 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/VD6283TX.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\VD6283TX.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,515 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/STTS751.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\STTS751.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,515 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/STEVAL-MKI209V1K.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\STEVAL-MKI209V1K.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,517 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/ST25DV04K.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\ST25DV04K.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,518 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/S2-LP.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\S2-LP.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,519 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M95M04-DR.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95M04-DR.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,519 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M95M01-DF.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95M01-DF.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,519 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M95256-DF.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95256-DF.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,520 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M95040-R.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95040-R.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,520 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M24M01-DF.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M24M01-DF.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,521 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M24C02-F.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M24C02-F.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,521 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M24256-DF.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M24256-DF.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,522 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/LSM6DSO.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LSM6DSO.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,523 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/LSM6DSL.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LSM6DSL.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,525 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/LSM303AGR.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LSM303AGR.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,526 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/LPS22HH.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LPS22HH.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,527 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/LPS22HB.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LPS22HB.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,529 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/LIS2MDL.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LIS2MDL.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,530 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/LIS2DW12.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LIS2DW12.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,531 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/ISM330DHCX.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\ISM330DHCX.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,533 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/IMP34DT05.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\IMP34DT05.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,534 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/IIS2MDC.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\IIS2MDC.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,544 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/IIS2ICLX.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\IIS2ICLX.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,545 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/IIS2DLPC.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\IIS2DLPC.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,547 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/HTS221.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\HTS221.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,547 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/BlueNRG-M2SP.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\BlueNRG-M2SP.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,548 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/BlueNRG-M0.jpg: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\BlueNRG-M0.jpg (系统找不到指定的路径。)
+2022-02-27 15:18:58,602 [WARN] ApiFinderProperties:104 - C:\Users\杨品凡\.stmcufinder\plugins\mcufinder\mcu\mcuFinder.mfd doesn't exist
+2022-02-27 15:18:58,604 [INFO] DbMcusAds:119 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,605 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,607 [INFO] DbMcusJson:64 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,608 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,610 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,726 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-02-27 15:18:58,730 [INFO] DbExamplesSqlite:764 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,809 [INFO] RulesReader:57 - Compatibility file has been processed (244 Rules)
+2022-02-27 15:18:58,886 [INFO] DbMcusXml:74 - Set database path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/
+2022-02-27 15:18:58,886 [INFO] DbBoardsPdsc:56 - Set plugin database path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/boardmanager/
+2022-02-27 15:18:58,887 [INFO] DbMcus:258 - Set plugin images path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-02-27 15:18:58,887 [INFO] DbBoards:264 - Set plugin images path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-02-27 15:18:58,887 [INFO] DbExamples:332 - Set plugin images path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-02-27 15:18:58,887 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:58,887 [INFO] DbMcusAds:119 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,887 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:58,887 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,887 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:58,887 [INFO] DbMcusJson:64 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,887 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:58,887 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,887 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:58,887 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,887 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:58,887 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:58,888 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-02-27 15:18:58,888 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:58,888 [INFO] DbExamplesSqlite:764 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:58,953 [INFO] MainPanel:220 - HeapMemory: 268435456
+2022-02-27 15:18:59,022 [INFO] DbMcusXml:74 - Set database path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/
+2022-02-27 15:18:59,022 [INFO] DbBoardsPdsc:56 - Set plugin database path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/boardmanager/
+2022-02-27 15:18:59,022 [INFO] DbMcus:258 - Set plugin images path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-02-27 15:18:59,022 [INFO] DbBoards:264 - Set plugin images path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-02-27 15:18:59,022 [INFO] DbExamples:332 - Set plugin images path to: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-02-27 15:18:59,023 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:59,023 [INFO] DbMcusAds:119 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:59,023 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:59,023 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:59,023 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:59,023 [INFO] DbMcusJson:64 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:59,023 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:59,023 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:59,023 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:59,023 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:59,023 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:59,023 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:59,024 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-02-27 15:18:59,024 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder/ => C:\Users\杨品凡\.stmcufinder\plugins\mcufinder
+2022-02-27 15:18:59,024 [INFO] DbExamplesSqlite:764 - Set database path to: C:\Users\杨品凡\.stmcufinder\plugins\mcufinder//mcu/
+2022-02-27 15:18:59,041 [INFO] ApplicationProperties:181 - Using Application install path: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105
+2022-02-27 15:18:59,043 [INFO] PluginManage:188 - Search for loadable plugins [exclusion list=, ]
+2022-02-27 15:18:59,044 [INFO] PluginManage:302 - Check plugin analytics
+2022-02-27 15:18:59,147 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-02-27 15:19:08,342 [INFO] AnalyticsPlugin:257 - Accepted Software Licenses: 
+2022-02-27 15:19:08,342 [INFO] AnalyticsPlugin:259 - Accepted CMSIS Pack Licenses: 
+2022-02-27 15:19:08,343 [INFO] AnalyticsPlugin:261 - Accepted Firmware Licenses: 
+2022-02-27 15:19:08,359 [INFO] PluginManage:352 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-02-27 15:19:08,359 [INFO] PluginManage:302 - Check plugin clock
+2022-02-27 15:19:08,377 [INFO] PluginManage:352 - Loaded plugin clock (category:base,tabindex:2)
+2022-02-27 15:19:08,377 [INFO] PluginManage:302 - Check plugin ddr
+2022-02-27 15:19:08,381 [INFO] PluginManage:352 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-02-27 15:19:08,381 [INFO] PluginManage:302 - Check plugin filemanager
+2022-02-27 15:19:08,590 [INFO] PluginManage:352 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-02-27 15:19:08,590 [INFO] PluginManage:302 - Check plugin ipmanager
+2022-02-27 15:19:08,600 [INFO] PluginManage:352 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-02-27 15:19:08,600 [INFO] PluginManage:302 - Check plugin pinoutandconfiguration
+2022-02-27 15:19:08,610 [INFO] PluginManage:352 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-02-27 15:19:08,611 [INFO] PluginManage:302 - Check plugin pinoutconfig
+2022-02-27 15:19:08,661 [INFO] PluginManage:352 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-02-27 15:19:08,661 [INFO] PluginManage:302 - Check plugin power
+2022-02-27 15:19:08,678 [INFO] PluginManage:352 - Loaded plugin power (category:power,tabindex:4)
+2022-02-27 15:19:08,678 [INFO] PluginManage:302 - Check plugin projectmanager
+2022-02-27 15:19:08,707 [INFO] PluginManage:352 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-02-27 15:19:08,708 [INFO] PluginManage:302 - Check plugin thirdparty
+2022-02-27 15:19:08,827 [INFO] PluginManage:352 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-02-27 15:19:08,827 [INFO] PluginManage:302 - Check plugin tools
+2022-02-27 15:19:08,827 [WARN] IntegrityCheckThread:78 - waiting for thirdparty lock release [integrity check]
+2022-02-27 15:19:08,828 [INFO] IntegrityCheckThread:80 - entering critical section [integrity check]
+2022-02-27 15:19:08,829 [INFO] PluginManage:352 - Loaded plugin tools (category:base,tabindex:7)
+2022-02-27 15:19:08,829 [INFO] PluginManage:302 - Check plugin tutovideos
+2022-02-27 15:19:08,829 [INFO] ThirdPartyUpdaterWithRetryManager:66 - Updater plugin not ready yet. [1/15]
+2022-02-27 15:19:09,131 [INFO] PluginManage:352 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2022-02-27 15:19:09,131 [INFO] PluginManage:302 - Check plugin updater
+2022-02-27 15:19:09,150 [INFO] PluginManage:352 - Loaded plugin updater (category:base,tabindex:12)
+2022-02-27 15:19:09,151 [INFO] PluginManage:275 - PluginManage : Loaded plugins [13]
+2022-02-27 15:19:09,422 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-02-27 15:19:09,544 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,545 [INFO] PluginManager:213 - loadIPPluginJar : add adc
+2022-02-27 15:19:09,547 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,547 [INFO] PluginManager:213 - loadIPPluginJar : add aes
+2022-02-27 15:19:09,550 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,550 [INFO] PluginManager:213 - loadIPPluginJar : add can
+2022-02-27 15:19:09,552 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,552 [INFO] PluginManager:213 - loadIPPluginJar : add comp
+2022-02-27 15:19:09,554 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,555 [INFO] PluginManager:213 - loadIPPluginJar : add cryp
+2022-02-27 15:19:09,557 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,558 [INFO] PluginManager:213 - loadIPPluginJar : add dfsdm
+2022-02-27 15:19:09,565 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,566 [INFO] PluginManager:213 - loadIPPluginJar : add dma
+2022-02-27 15:19:09,568 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,568 [INFO] PluginManager:213 - loadIPPluginJar : add dma3
+2022-02-27 15:19:09,570 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,570 [INFO] PluginManager:213 - loadIPPluginJar : add fatfs
+2022-02-27 15:19:09,575 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,575 [INFO] PluginManager:213 - loadIPPluginJar : add fmc
+2022-02-27 15:19:09,582 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,582 [INFO] PluginManager:213 - loadIPPluginJar : add freertos
+2022-02-27 15:19:09,584 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,584 [INFO] PluginManager:213 - loadIPPluginJar : add genericplugin
+2022-02-27 15:19:09,585 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,585 [INFO] PluginManager:213 - loadIPPluginJar : add gfxmmu
+2022-02-27 15:19:09,591 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,592 [INFO] PluginManager:213 - loadIPPluginJar : add gic
+2022-02-27 15:19:09,595 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,596 [INFO] PluginManager:213 - loadIPPluginJar : add gpio
+2022-02-27 15:19:09,598 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,599 [INFO] PluginManager:213 - loadIPPluginJar : add gtzc
+2022-02-27 15:19:09,601 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,601 [INFO] PluginManager:213 - loadIPPluginJar : add hash
+2022-02-27 15:19:09,603 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,604 [INFO] PluginManager:213 - loadIPPluginJar : add i2c
+2022-02-27 15:19:09,606 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,606 [INFO] PluginManager:213 - loadIPPluginJar : add i2s
+2022-02-27 15:19:09,609 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,609 [INFO] PluginManager:213 - loadIPPluginJar : add ipddr
+2022-02-27 15:19:09,617 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,618 [INFO] PluginManager:213 - loadIPPluginJar : add linkedlist
+2022-02-27 15:19:09,623 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,623 [INFO] PluginManager:213 - loadIPPluginJar : add lorawan
+2022-02-27 15:19:09,625 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,625 [INFO] PluginManager:213 - loadIPPluginJar : add ltdc
+2022-02-27 15:19:09,635 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,635 [INFO] PluginManager:213 - loadIPPluginJar : add mdma
+2022-02-27 15:19:09,640 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,641 [INFO] PluginManager:213 - loadIPPluginJar : add nvic
+2022-02-27 15:19:09,647 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,647 [INFO] PluginManager:213 - loadIPPluginJar : add opamp
+2022-02-27 15:19:09,652 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,653 [INFO] PluginManager:213 - loadIPPluginJar : add openamp
+2022-02-27 15:19:09,656 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,656 [INFO] PluginManager:213 - loadIPPluginJar : add pdm2pcm
+2022-02-27 15:19:09,665 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,670 [INFO] PluginManager:213 - loadIPPluginJar : add plateformsettings
+2022-02-27 15:19:09,671 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,671 [INFO] PluginManager:213 - loadIPPluginJar : add quadspi
+2022-02-27 15:19:09,676 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,676 [INFO] PluginManager:213 - loadIPPluginJar : add resmgrutility
+2022-02-27 15:19:09,680 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,680 [INFO] PluginManager:213 - loadIPPluginJar : add sai
+2022-02-27 15:19:09,685 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,685 [INFO] PluginManager:213 - loadIPPluginJar : add spi
+2022-02-27 15:19:09,689 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,690 [INFO] PluginManager:213 - loadIPPluginJar : add stm32_wpan
+2022-02-27 15:19:09,692 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,692 [INFO] PluginManager:213 - loadIPPluginJar : add tim
+2022-02-27 15:19:09,695 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,696 [INFO] PluginManager:213 - loadIPPluginJar : add touchsensing
+2022-02-27 15:19:09,697 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,698 [INFO] PluginManager:213 - loadIPPluginJar : add tracer_emb
+2022-02-27 15:19:09,699 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,700 [INFO] PluginManager:213 - loadIPPluginJar : add ts
+2022-02-27 15:19:09,702 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,702 [INFO] PluginManager:213 - loadIPPluginJar : add tsc
+2022-02-27 15:19:09,704 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,704 [INFO] PluginManager:213 - loadIPPluginJar : add ucpd
+2022-02-27 15:19:09,706 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,707 [INFO] PluginManager:213 - loadIPPluginJar : add usart
+2022-02-27 15:19:09,709 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-27 15:19:09,709 [INFO] PluginManager:213 - loadIPPluginJar : add usbx
+2022-02-27 15:19:10,070 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-02-27 15:19:10,256 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-02-27 15:19:10,266 [INFO] DbMcusAds:47 - JSON generation date=Thu Sep 30 14:55:09 CST 2021 (1632984909247)
+2022-02-27 15:19:10,266 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-02-27 15:19:10,329 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2022-02-27 15:19:10,499 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-02-27 15:19:10,503 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-02-27 15:19:10,504 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-02-27 15:19:10,504 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2022-02-27 15:19:10,507 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-02-27 15:19:10,576 [INFO] Updater:1018 - Updater Version found : 6.4.0
+2022-02-27 15:19:10,611 [INFO] ApplicationProperties:181 - Using Application install path: D:\software\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105
+2022-02-27 15:19:10,660 [INFO] MainUpdater:512 - Copy updater definitions from MX database
+2022-02-27 15:19:10,698 [INFO] MainUpdater:545 - Copy flag file definitions from MX database
+2022-02-27 15:19:10,700 [INFO] MainUpdater:561 - Copy thirdparty index definitions from MX database
+2022-02-27 15:19:10,702 [INFO] MainUpdater:580 - Copy default thirdparty db definitions from MX database
+2022-02-27 15:19:10,743 [INFO] MainUpdater:2729 - connection check result : 10
+2022-02-27 15:19:10,743 [INFO] MainUpdater:3414 - Updater definition file requires update
+2022-02-27 15:19:10,746 [INFO] MainUpdater:276 - Updater Check For Update Now.
+2022-02-27 15:19:10,748 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-02-27 15:19:10,775 [INFO] ServerAccessManage:359 - Download File updaters.zip
+2022-02-27 15:19:10,851 [INFO] FileExtend:235 - Unzip File : updaters.zip
+2022-02-27 15:19:10,851 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-02-27 15:19:11,316 [INFO] ServerAccessManage:359 - Download File PacksControlFlags.xml
+2022-02-27 15:19:11,399 [INFO] ServerAccessManage:359 - Download File cubemx.pidx
+2022-02-27 15:19:11,533 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-AI.pdsc
+2022-02-27 15:19:11,797 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-ALS.pdsc
+2022-02-27 15:19:11,846 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-02-27 15:19:11,846 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [1/15]
+2022-02-27 15:19:11,883 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-BLE1.pdsc
+2022-02-27 15:19:12,916 [ERROR] ServerAccessManage:975 - Problem, file not found on Server
+2022-02-27 15:19:12,944 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-BLE2.pdsc
+2022-02-27 15:19:13,149 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-DISPLAY.pdsc
+2022-02-27 15:19:13,261 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-EEPRMA1.pdsc
+2022-02-27 15:19:13,360 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-GNSS1.pdsc
+2022-02-27 15:19:14,094 [ERROR] ServerAccessManage:975 - Problem, file not found on Server
+2022-02-27 15:19:14,672 [ERROR] ServerAccessManage:975 - Problem, file not found on Server
+2022-02-27 15:19:14,856 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-02-27 15:19:14,856 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [2/15]
+2022-02-27 15:19:15,200 [ERROR] ServerAccessManage:975 - Problem, file not found on Server
+2022-02-27 15:19:15,723 [ERROR] ServerAccessManage:975 - Problem, file not found on Server
+2022-02-27 15:19:16,241 [ERROR] ServerAccessManage:975 - Problem, file not found on Server
+2022-02-27 15:19:16,771 [ERROR] ServerAccessManage:975 - Problem, file not found on Server
+2022-02-27 15:19:16,790 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-MEMS1.pdsc
+2022-02-27 15:19:17,203 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-NFC4.pdsc
+2022-02-27 15:19:17,430 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-SFXS2LP1.pdsc
+2022-02-27 15:19:17,534 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-SUBG2.pdsc
+2022-02-27 15:19:17,725 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-TOF1.pdsc
+2022-02-27 15:19:17,861 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-02-27 15:19:17,861 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [3/15]
+2022-02-27 15:19:18,323 [ERROR] ServerAccessManage:975 - Problem, file not found on Server
+2022-02-27 15:19:18,360 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-TOUCHGFX.pdsc
+2022-02-27 15:19:18,572 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-ALGOBUILD.pdsc
+2022-02-27 15:19:18,711 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-AZRTOS-H7.pdsc
+2022-02-27 15:19:18,873 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-AZRTOS-F4.pdsc
+2022-02-27 15:19:19,012 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-AZRTOS-F7.pdsc
+2022-02-27 15:19:19,100 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-AZRTOS-L4.pdsc
+2022-02-27 15:19:19,193 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-AZRTOS-L5.pdsc
+2022-02-27 15:19:19,291 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-AZRTOS-G0.pdsc
+2022-02-27 15:19:19,405 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-AZRTOS-G4.pdsc
+2022-02-27 15:19:19,513 [INFO] ServerAccessManage:359 - Download File STMicroelectronics.X-CUBE-AZRTOS-WL.pdsc
+2022-02-27 15:19:20,668 [INFO] ServerAccessManage:359 - Download File wolfSSL.I-CUBE-wolfSSL.pdsc
+2022-02-27 15:19:20,865 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-02-27 15:19:20,866 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [4/15]
