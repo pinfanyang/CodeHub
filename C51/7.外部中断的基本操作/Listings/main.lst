@@ -1,0 +1,174 @@
+C51 COMPILER V9.60.0.0   MAIN                                                              03/12/2022 21:28:25 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: C:\lanqiao_keil_v5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listi
+                    -ngs\main.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include "reg52.h"
+   2          
+   3          sbit L1 = P0^0;
+   4          sbit L8 = P0^7;
+   5          
+   6          void Delay(unsigned int t)
+   7          {
+   8   1        while(t--);
+   9   1      }
+  10          
+  11          void SelectHC573(unsigned char channel)
+  12          {
+  13   1        switch(channel)
+  14   1        {
+  15   2          case 4:
+  16   2            P2 = (P2 & 0x01f) | 0x80;
+  17   2          break;
+  18   2          case 5:
+  19   2            P2 = (P2 & 0x01f) | 0xa0;
+  20   2          break;
+  21   2          case 6:
+  22   2            P2 = (P2 & 0x01f) | 0xc0;
+  23   2          break;
+  24   2          case 7:
+  25   2            P2 = (P2 & 0x01f) | 0xe0;
+  26   2          break;
+  27   2        }
+  28   1      }
+  29          
+  30          void Working()
+  31          {
+  32   1        SelectHC573(4);
+  33   1        L1 = 0;
+  34   1        Delay(60000);
+  35   1        L1 = 1;
+  36   1        Delay(40000);
+  37   1      }
+  38          
+  39          
+  40          
+  41          void Init_INI0()  //中断初始化函数
+  42          {
+  43   1          IT0 = 1;  //中断触发方式：下降沿触发
+  44   1          EX0 = 1;  //外部中断使能
+  45   1          EA = 1;   //总中断打开
+  46   1      }
+  47          
+  48          void ServiceINT0() interrupt 0  //中断服务函数
+  49          {
+  50   1        L8 = 0;
+  51   1        Delay(60000);
+  52   1        Delay(60000);
+  53   1        Delay(60000);
+  54   1        Delay(60000);
+C51 COMPILER V9.60.0.0   MAIN                                                              03/12/2022 21:28:25 PAGE 2   
+
+  55   1        Delay(60000);
+  56   1        Delay(60000);
+  57   1        Delay(60000);
+  58   1        Delay(60000);
+  59   1        Delay(60000);
+  60   1        Delay(60000);
+  61   1        Delay(60000);
+  62   1        Delay(60000);
+  63   1        L8 = 1;
+  64   1      }
+  65          
+  66          
+  67          
+  68          void InitSystem() //初始化系统，关掉无关设备（蜂鸣器、继电器这些）
+  69          {
+  70   1        SelectHC573(4);   //Y4输出低电平,关灯
+  71   1        P0 = 0xff;      
+  72   1        SelectHC573(5);   //Y5输出低电平
+  73   1        P0 = 0x00;      
+  74   1      }
+  75          
+  76          void main()
+  77          {
+  78   1        //InitSystem();
+  79   1        Init_INI0();
+  80   1        while(1)
+  81   1        {
+  82   2          Working();
+  83   2          
+  84   2        }
+  85   1        
+  86   1      }
+  87          
+  88          
+  89          
+  90          
+  91          
+  92          
+  93          
+  94          
+  95          ////////////////////////////////////////////////////////
+  96          ////这是第二种写法，有时候会用到 (带查询的中断）
+  97          ////这种能保证在中断产生时不会影响前面L1灯，因为每次都是等L1亮了之后再去查询中断状态
+  98          //unsigned char stat_int = 0;
+  99          //void Init_INI0()  //中断初始化函数
+ 100          //{
+ 101          //    IT0 = 1;  //中断触发方式：下降沿触发
+ 102          //    EX0 = 1;  //外部中断使能
+ 103          //    EA = 1;   //总中断打开
+ 104          //}
+ 105          
+ 106          //unsigned cahr stat_int = 0;
+ 107          //void ServiceINT0() interrupt 0  //中断服务函数
+ 108          //{
+ 109          //  stat_int = 0;
+ 110          //}
+ 111          //  
+ 112          //void LEDINT()
+ 113          //{
+ 114          //  if(stat_int == 1)
+ 115          //  {
+ 116          //    L8 = 0;
+C51 COMPILER V9.60.0.0   MAIN                                                              03/12/2022 21:28:25 PAGE 3   
+
+ 117          //    Delay(60000);
+ 118          //    Delay(60000);
+ 119          //    Delay(60000);
+ 120          //    Delay(60000);
+ 121          //    Delay(60000);
+ 122          //    Delay(60000);
+ 123          //    Delay(60000);
+ 124          //    Delay(60000);
+ 125          //    Delay(60000);
+ 126          //    Delay(60000);
+ 127          //    Delay(60000);
+ 128          //    Delay(60000);
+ 129          //    L8 = 1;
+ 130          //  }
+ 131          //  stat_int =0;
+ 132          //}
+ 133          
+ 134          //void main()
+ 135          //{
+ 136          //  Init_INI0();
+ 137          //  while(1)
+ 138          //  {
+ 139          //    Working();
+ 140          //    LEDINT();
+ 141          //  }
+ 142          //  
+ 143          //}
+ 144          
+ 145          
+ 146          /////////////////////////////////////////////////////
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    185    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

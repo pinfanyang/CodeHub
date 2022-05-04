@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\main.obj" 
+TO ".\Objects\定时器综合" 
+PRINT(".\Listings\定时器综合.m51") RAMSIZE(256) 

@@ -1,0 +1,134 @@
+C51 COMPILER V9.60.0.0   MAIN                                                              03/26/2022 15:46:52 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: C:\lanqiao_keil_v5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listi
+                    -ngs\main.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include "reg52.h"
+   2          #include "absacc.h"
+   3          #include "onewire.h"
+   4          
+   5          unsigned char SMGNoDot_CA[10] = {0xc0,0xf9,0xa4,0xb0,0x99,0x92,
+   6                                           0x82,0xf8,0x80,0x90};//0-9不带点
+   7          unsigned char SMGDot_CA[10] = {0x40,0x79,0x24,0x30,0x19,
+   8                                         0x12,0x02,0x78,0x00,0x10};//0-9带点
+   9          unsigned int temp = 0;
+  10                                         
+  11          void DelaySMG(unsigned int t)
+  12          {
+  13   1        while(t--);
+  14   1      }
+  15          
+  16          void DisplaySMG_Bit(unsigned char pos,unsigned char dat)
+  17          {
+  18   1        XBYTE[0xE000] = 0xff; //全选消影
+  19   1        XBYTE[0xC000] = 0x01 << pos;
+  20   1        XBYTE[0xE000] = dat;
+  21   1      }
+  22          
+  23          void DisPlay_All(unsigned char dat)
+  24          {
+  25   1          XBYTE[0xC000] = 0xff;
+  26   1          XBYTE[0xE000] = dat;
+  27   1      }
+  28          
+  29          
+  30          
+  31          void DisPlaySMG_Temp()
+  32          {
+  33   1        DisplaySMG_Bit(7,SMGNoDot_CA[temp % 10]);   //个位
+  34   1        DelaySMG(100);
+  35   1        DisplaySMG_Bit(6,SMGDot_CA[(temp % 100) / 10]); //十位
+  36   1        DelaySMG(100);
+  37   1        DisplaySMG_Bit(5,SMGNoDot_CA[temp / 100]);    //百位
+  38   1        DelaySMG(100);
+  39   1        
+  40   1        
+  41   1        DisplaySMG_Bit(4,0xff); //不显示，但是还是要写，防止电流抖动
+  42   1        DelaySMG(100);
+  43   1        DisplaySMG_Bit(3,0xff);
+  44   1        DelaySMG(100);
+  45   1        DisplaySMG_Bit(2,0xff);
+  46   1        DelaySMG(100);
+  47   1        DisplaySMG_Bit(1,0xff);
+  48   1        DelaySMG(100);
+  49   1        DisplaySMG_Bit(0,0xff);
+  50   1        DelaySMG(100);
+  51   1        
+  52   1        DisPlay_All(0xff);    //关掉所有数码管
+  53   1        
+  54   1      }
+C51 COMPILER V9.60.0.0   MAIN                                                              03/26/2022 15:46:52 PAGE 2   
+
+  55          
+  56          void Delay(unsigned int t)
+  57          {
+  58   1        while(t--)  //注意：数码管不能直接这么用延时，数码管在延时的时候也要保持动态扫描
+  59   1        {
+  60   2          DisPlaySMG_Temp();
+  61   2        }
+  62   1      }
+  63          
+  64          void Read_DS18B20_temp()
+  65          {
+  66   1        unsigned char LSB,HSB;  //存储温度的高低位
+  67   1        
+  68   1        init_ds18b20();   //DS18B20设备初始化
+  69   1        Write_DS18B20(0xcc);  //跳过ROM指令
+  70   1        Write_DS18B20(0x44);  //温度转换
+  71   1        
+  72   1        Delay(1000);  //给延时，数据转换时间
+  73   1        
+  74   1        init_ds18b20();   //DS18B20设备初始化
+  75   1        Write_DS18B20(0xcc);  //跳过ROM指令
+  76   1        Write_DS18B20(0xbe);  //接收温度转换数据
+  77   1        
+  78   1        LSB = Read_DS18B20(); //读低八位
+  79   1        HSB = Read_DS18B20(); //读高八位
+  80   1        
+  81   1        temp = HSB;
+  82   1        temp = (temp << 8) | LSB;   //将温度数据组合起来，成为输出的结果
+  83   1        
+  84   1        
+  85   1        //下面这部分是考虑了小数，如果比赛要求整数，那么直接在上面的语句
+  86   1        //接一句 temp >>= 4;即可，也就是直接去除小数部分即可
+  87   1        if((temp & 0xf800) == 0x0000) //看高五位是不是0，是0温度就为正
+  88   1        {
+  89   2          temp >>= 4; //右移四位，去除小数，后面加回来
+  90   2          temp = temp * 10; //整数部分放到10倍
+  91   2          temp = temp + (LSB & 0x0f) *0.625;  //加上小数，精度也扩大了10倍
+  92   2        }
+  93   1        
+  94   1      }
+  95          
+  96          
+  97          void main()
+  98          {
+  99   1        XBYTE[8000] = 0x00; //关闭所有LED灯 
+ 100   1        while(1)
+ 101   1        {
+ 102   2          Read_DS18B20_temp();
+ 103   2          DisPlaySMG_Temp();
+ 104   2        }
+ 105   1        
+ 106   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    344    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     22       1
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+C51 COMPILER V9.60.0.0   MAIN                                                              03/26/2022 15:46:52 PAGE 3   
+
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

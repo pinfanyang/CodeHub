@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\DataHub\CodeHub\C51\1.Á÷Ë®µÆ\led.uvproj
+Project File Date:  03/08/2022
+
+<h2>Output:</h2>
+compiling led.c...
+led.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=113
+creating hex file from "led"...
+"led" - 0 Error(s), 0 Warning(s).

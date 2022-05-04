@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\main.obj" 
+TO ".\Objects\PWM控制灯光亮度" 
+PRINT(".\Listings\PWM控制灯光亮度.m51") RAMSIZE(256) 

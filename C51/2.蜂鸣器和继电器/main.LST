@@ -1,0 +1,153 @@
+C51 COMPILER V9.60.0.0   MAIN                                                              03/09/2022 10:46:07 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: C:\lanqiao_keil_v5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include "reg52.h"
+   2          
+   3          //脚标
+   4          sbit HC138_A = P2^5;
+   5          sbit HC138_B = P2^6;
+   6          sbit HC138_C = P2^7;
+   7          
+   8          
+   9          void Delay(unsigned int t)
+  10          {
+  11   1        while(t--);
+  12   1        while(t--);
+  13   1      }
+  14          
+  15          void InitHC138(unsigned char n) //用函数控制选择138输出那一位
+  16          {
+  17   1        switch(n)
+  18   1        {
+  19   2          case 4:
+  20   2            HC138_C = 1;
+  21   2            HC138_B = 0;
+  22   2            HC138_A = 0;    //Y4输出低电平
+  23   2          //简洁写法
+  24   2          // P2 = (P2 & 0x1f) | 0x80;
+  25   2          break;
+  26   2          case 5:
+  27   2            HC138_C = 1;
+  28   2            HC138_B = 0;
+  29   2            HC138_A = 1;    //Y5输出低电平
+  30   2          // P2 = (P2 & 0x1f) | 0xa0;
+  31   2          break;
+  32   2          case 6:
+  33   2            HC138_C = 1;
+  34   2            HC138_B = 1;
+  35   2            HC138_A = 0;    //Y6输出低电平
+  36   2          // P2 = (P2 & 0x1f) | 0xc0;
+  37   2          break;
+  38   2          case 7:
+  39   2            HC138_C = 1;
+  40   2            HC138_B = 1;
+  41   2            HC138_A = 1;    //Y7输出低电平
+  42   2          // P2 = (P2 & 0x1f) | 0xe0;
+  43   2          break;
+  44   2        }
+  45   1      }
+  46          
+  47          void OutPutP0(unsigned char channel,unsigned char dat)    //通过函数来实现对P0的控制
+  48          {
+  49   1        InitHC138(channel);
+  50   1        P0 = dat;
+  51   1      }
+  52          
+  53          
+  54          void LEDRunning()
+  55          {
+C51 COMPILER V9.60.0.0   MAIN                                                              03/09/2022 10:46:07 PAGE 2   
+
+  56   1        unsigned char i;
+  57   1        InitHC138(4);   //Y4输出低电平
+  58   1      
+  59   1        for(i = 0; i < 3; i++)
+  60   1        {
+  61   2          OutPutP0(4,0x00);
+  62   2          Delay(40000);
+  63   2          Delay(50000);
+  64   2          OutPutP0(4,0xff);
+  65   2          Delay(40000);
+  66   2          Delay(50000);
+  67   2        }
+  68   1      
+  69   1        for(i = 1; i <= 8; i++)
+  70   1        {
+  71   2          OutPutP0(4,(0xff << i));
+  72   2          Delay(60000);
+  73   2        }
+  74   1      
+  75   1        /////////////////////////////////
+  76   1      //  InitHC138(5);   //Y5输出低电平
+  77   1      //  P0 = 0x10;      //让继电器吸合
+  78   1        OutPutP0(5,0x10);
+  79   1        Delay(40000);
+  80   1        Delay(50000);         
+  81   1      //    P0 = 0x00;      //让继电器吸合
+  82   1        OutPutP0(5,0x00);
+  83   1      
+  84   1        InitHC138(4);   //Y4输出低电平
+  85   1        for(i = 1; i <= 8; i++)
+  86   1        {
+  87   2          OutPutP0(4,~(0xff << i));
+  88   2          Delay(60000);
+  89   2        }
+  90   1      
+  91   1      //  InitHC138(5);   //Y5输出低电平
+  92   1      //  P0 = 0x40;      //让蜂鸣器报警
+  93   1        OutPutP0(5,0x40);
+  94   1        Delay(40000);
+  95   1        Delay(50000);         
+  96   1      //    P0 = 0x00;      //关闭蜂鸣器
+  97   1        OutPutP0(5,0x00);
+  98   1      
+  99   1      }
+ 100          
+ 101          
+ 102          
+ 103          void InitSystem() //初始化系统，关掉无关设备（蜂鸣器、继电器这些）
+ 104          {
+ 105   1        //  InitHC138(5);   //Y5输出低电平
+ 106   1        //P0 = 0x00;      
+ 107   1        OutPutP0(5,0x00);
+ 108   1      
+ 109   1      
+ 110   1      
+ 111   1      }
+ 112          
+ 113          
+ 114          void main()
+ 115          {
+ 116   1        InitSystem();  //初始化设备
+ 117   1        while(1)
+C51 COMPILER V9.60.0.0   MAIN                                                              03/09/2022 10:46:07 PAGE 3   
+
+ 118   1        {
+ 119   2          LEDRunning();
+ 120   2      
+ 121   2      
+ 122   2        }
+ 123   1      
+ 124   1      }
+ 125          
+ 126          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    242    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,127 @@
+﻿GUI.lib(LISTVIEW_GetItemText.OBJ) : error LNK2001: 无法解析的外部符号 _memset
+GUIDEMO_ColorBar.obj : error LNK2001: 无法解析的外部符号 _memset
+libcmt.lib(utility_desktop.obj) : error LNK2001: 无法解析的外部符号 _memset
+GUI.lib(GUIDRV_Win32.OBJ) : error LNK2001: 无法解析的外部符号 _memset
+GUI.lib(GUIDEV_UsageBM.OBJ) : error LNK2001: 无法解析的外部符号 _memset
+GUIDEMO_Intro.obj : error LNK2019: 无法解析的外部符号 _strcat，函数 _GUIDEMO_Intro 中引用了该符号
+GUIDEMO_Skinning.obj : error LNK2001: 无法解析的外部符号 _strcat
+GUIDEMO_Listview.obj : error LNK2019: 无法解析的外部符号 ___stdio_common_vsprintf，函数 __vsnprintf_l 中引用了该符号
+GUIDEMO_Listview.obj : error LNK2019: 无法解析的外部符号 _rand，函数 __AddRow 中引用了该符号
+GUIDEMO_Speed.obj : error LNK2001: 无法解析的外部符号 _rand
+GUI.lib(LISTBOX.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUI.lib(LISTBOX_AddStringH.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUI.lib(TREEVIEW.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUI.lib(GUI__SetText.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUI.lib(HEADER.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUI.lib(DROPDOWN.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUI.lib(LISTVIEW.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUI.lib(LISTVIEW_InsertRow.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUI.lib(LISTVIEW_SetItemText.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUI.lib(EDIT.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUIDEMO_Listview.obj : error LNK2001: 无法解析的外部符号 _strcpy
+GUIDEMO_Skinning.obj : error LNK2001: 无法解析的外部符号 _strcpy
+GUI.lib(TEXT.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUI.lib(ICONVIEW.OBJ) : error LNK2001: 无法解析的外部符号 _strcpy
+GUIDEMO_WashingMachine.obj : error LNK2019: 无法解析的外部符号 _sqrt，函数 __DrawGradientRoundBar 中引用了该符号
+GUI.lib(GUIDEV_Perspective.OBJ) : error LNK2001: 无法解析的外部符号 _sqrt
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __seh_filter_exe，函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __set_app_type，函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 ___setusermatherr，函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __configure_narrow_argv，函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中引用了该符号
+libcmt.lib(utility.obj) : error LNK2001: 无法解析的外部符号 __configure_narrow_argv
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __initialize_narrow_environment，函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中引用了该符号
+libcmt.lib(utility.obj) : error LNK2001: 无法解析的外部符号 __initialize_narrow_environment
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __get_narrow_winmain_command_line，函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __initterm，函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __initterm_e，函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 _exit，函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __exit，函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __set_fmode，函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __cexit，函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中引用了该符号
+libcmt.lib(utility.obj) : error LNK2001: 无法解析的外部符号 __cexit
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __c_exit，函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __register_thread_local_exe_atexit_callback，函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __configthreadlocale，函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 __set_new_mode，函数 "void __cdecl pre_cpp_initialization(void)" (?pre_cpp_initialization@@YAXXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 ___p__commode，函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中引用了该符号
+libcmt.lib(exe_winmain.obj) : error LNK2001: 无法解析的外部符号 __except_handler4
+libcmt.lib(utility.obj) : error LNK2001: 无法解析的外部符号 __except_handler4
+libcmt.lib(sehprolg4.obj) : error LNK2001: 无法解析的外部符号 __except_handler4
+libcmt.lib(chandler4_noexcept.obj) : error LNK2001: 无法解析的外部符号 __except_handler4
+libcmt.lib(error.obj) : error LNK2019: 无法解析的外部符号 _strcpy_s，函数 "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPAXPBD@Z) 中引用了该符号
+libcmt.lib(error.obj) : error LNK2019: 无法解析的外部符号 _strcat_s，函数 "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPAXPBD@Z) 中引用了该符号
+libcmt.lib(error.obj) : error LNK2019: 无法解析的外部符号 ___stdio_common_vsprintf_s，函数 __vsprintf_s_l 中引用了该符号
+libcmt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __seh_filter_dll，函数 ___scrt_dllmain_exception_filter 中引用了该符号
+libcmt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __initialize_onexit_table，函数 ___scrt_initialize_onexit_tables 中引用了该符号
+libcmt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __register_onexit_function，函数 __onexit 中引用了该符号
+libcmt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __execute_onexit_table，函数 ___scrt_dllmain_uninitialize_c 中引用了该符号
+libcmt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __crt_atexit，函数 __onexit 中引用了该符号
+libcmt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __crt_at_quick_exit，函数 _at_quick_exit 中引用了该符号
+libcmt.lib(tncleanup.obj) : error LNK2019: 无法解析的外部符号 ___std_type_info_destroy_list，函数 "void __cdecl __scrt_uninitialize_type_info(void)" (?__scrt_uninitialize_type_info@@YAXXZ) 中引用了该符号
+libcmt.lib(default_precision.obj) : error LNK2019: 无法解析的外部符号 __controlfp_s，函数 __initialize_default_precision 中引用了该符号
+libcmt.lib(utility_desktop.obj) : error LNK2019: 无法解析的外部符号 _terminate，函数 ___scrt_unhandled_exception_filter@4 中引用了该符号
+libcmt.lib(chandler4_noexcept.obj) : error LNK2001: 无法解析的外部符号 _terminate
+libcmt.lib(utility_desktop.obj) : error LNK2019: 无法解析的外部符号 ___current_exception，函数 ___scrt_unhandled_exception_filter@4 中引用了该符号
+libcmt.lib(chandler4_noexcept.obj) : error LNK2001: 无法解析的外部符号 ___current_exception
+libcmt.lib(utility_desktop.obj) : error LNK2019: 无法解析的外部符号 ___current_exception_context，函数 ___scrt_unhandled_exception_filter@4 中引用了该符号
+libcmt.lib(chandler4_noexcept.obj) : error LNK2001: 无法解析的外部符号 ___current_exception_context
+libcmt.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 ___vcrt_GetModuleFileNameW，函数 "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 中引用了该符号
+libcmt.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 ___vcrt_LoadLibraryExW，函数 "struct HINSTANCE__ * __cdecl GetPdbDllFromInstallPath(void)" (?GetPdbDllFromInstallPath@@YAPAUHINSTANCE__@@XZ) 中引用了该符号
+GUI.lib(GUI_Alloc.OBJ) : error LNK2019: 无法解析的外部符号 _memmove，函数 __RemoveHoles 中引用了该符号
+GUI.lib(GRAPH.OBJ) : error LNK2001: 无法解析的外部符号 _memmove
+GUI.lib(EDIT.OBJ) : error LNK2001: 无法解析的外部符号 _memmove
+GUISim.lib(SIM_GetRegions.OBJ) : error LNK2001: 无法解析的外部符号 _memmove
+GUI.lib(GUI_ALLOC_AllocInit.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(LCD_RLE32.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUI_ARRAY.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUI_ARRAY_InsertItem.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUI_ARRAY_ResizeItem.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUIDEV_16.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUIDEV_StaticDevices.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUI__SetText.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(FRAMEWIN_Get.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUI_Realloc.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUIDEV_MoveAndFadeWin.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(EDIT.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUIDEV_8.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(TREEVIEW.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUI_JPEG.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GRAPH_DATA_YT.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(ICONVIEW.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(WM_UserData.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUI_Alloc.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUIDEV_32.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUI_SetAlpha.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUI_GIF.OBJ) : error LNK2001: 无法解析的外部符号 _memcpy
+GUI.lib(GUI_Valf.OBJ) : error LNK2001: 无法解析的外部符号 __ftol
+GUISim.lib(SIM_GUI_App.OBJ) : error LNK2001: 无法解析的外部符号 __ftol
+GUI.lib(GUIDEV_Perspective.OBJ) : error LNK2001: 无法解析的外部符号 __ftol
+GUI.lib(GUIDEV_MoveAndFadeWin.OBJ) : error LNK2001: 无法解析的外部符号 __ftol
+GUI.lib(GUI_Arc.OBJ) : error LNK2001: 无法解析的外部符号 __ftol
+GUI.lib(GUI_PolyRotate.OBJ) : error LNK2001: 无法解析的外部符号 __ftol
+GUI.lib(GUI_BMP.OBJ) : error LNK2019: 无法解析的外部符号 _labs，函数 _GUI_BMP_GetYSizeEx 中引用了该符号
+GUI.lib(LISTBOX_AddStringH.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(HEADER.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(DROPDOWN.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(LISTVIEW_GetItemText.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(LISTBOX.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(TREEVIEW.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(GUI_ErrorOut.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(GUI_Warn.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(FRAMEWIN_Get.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(TEXT.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(ICONVIEW.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(DROPDOWN_AddString.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(EDIT.OBJ) : error LNK2001: 无法解析的外部符号 _strlen
+GUI.lib(LISTVIEW_SetSort.OBJ) : error LNK2019: 无法解析的外部符号 _strcmp，函数 _LISTVIEW_CompareText 中引用了该符号
+GUI.lib(WM_Motion.OBJ) : error LNK2019: 无法解析的外部符号 _abs，函数 __ExecMotion 中引用了该符号
+GUI.lib(GUI_Arc.OBJ) : error LNK2019: 无法解析的外部符号 _floor，函数 __DrawArc 中引用了该符号
+GUI.lib(GUI_Valf.OBJ) : error LNK2001: 无法解析的外部符号 _floor
+GUI.lib(GUI_Arc.OBJ) : error LNK2019: 无法解析的外部符号 _ceil，函数 __DrawArc 中引用了该符号
+GUI.lib(GUI_Valf.OBJ) : error LNK2001: 无法解析的外部符号 _ceil
+GUI.lib(LISTVIEW_GetItemText.OBJ) : error LNK2019: 无法解析的外部符号 _strncpy，函数 _LISTVIEW_GetItemText 中引用了该符号
+GUISim.lib(SIM_GetRegions.OBJ) : error LNK2019: 无法解析的外部符号 _free，函数 __AddRegion 中引用了该符号
+GUISim.lib(SIM_GetRegions.OBJ) : error LNK2019: 无法解析的外部符号 _calloc，函数 __AddRegion 中引用了该符号
+GUI.lib(GUI_TOUCH.OBJ) : error LNK2019: 无法解析的外部符号 _memcmp，函数 _GUI_TOUCH_StoreStateEx 中引用了该符号
+GUI.lib(GUI_MOUSE.OBJ) : error LNK2001: 无法解析的外部符号 _memcmp
+D:\DataHub\CodeHub\Vs_Test\Exe\GUISimulationDebug.exe : fatal error LNK1120: 53 个无法解析的外部命令
